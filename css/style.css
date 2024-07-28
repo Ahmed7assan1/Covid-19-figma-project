@@ -151,7 +151,7 @@ ul{
 /* Cards section 3 */
 .Cards {
     position: relative;
-    padding-top: 50px; /* تأكد من وجود مساحة كافية للصورة */
+    padding-top: 50px; 
 }
 
 .Cards .bg {
@@ -164,18 +164,18 @@ ul{
 
 .Cards-data {
     text-align: center;
-    position: relative; /* لتمكين وضع الصورة داخل هذا القسم */
+    position: relative; 
 }
 
 .card {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للبطاقات */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .card:hover {
     border-bottom: 2px solid red;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* تعزيز ظل البطاقة عند التمرير */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .row {
@@ -221,24 +221,24 @@ ul{
 }
 .image-content {
     display: flex;
-    justify-content: center; /* توسيط الصورة أفقياً */
-    align-items: center; /* توسيط الصورة عمودياً */
-    height: 100%; /* تأكد من أن العنصر يحتوي على ارتفاع كامل */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
 }
 
 .circle {
-    width: 50px; /* تحديد العرض */
-    height: 50px; /* تحديد الارتفاع */
-    border-radius: 50%; /* يجعل العنصر دائري الشكل */
-    background-color: #ffc9c8; /* لون خلفية الدائرة */
-    color: #FA5652; /* لون النص */
-    display: flex; /* استخدام flexbox لتوسيع المحتوى */
-    align-items: center; /* توسيط المحتوى عمودياً */
-    justify-content: center; /* توسيط المحتوى أفقياً */
-    font-size: 30px; /* حجم الخط */
-    font-weight: bold; /* سمك الخط */
-    text-align: center; /* توسيط النص */
-    margin: 10px; /* الهامش حول الدائرة */
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: #ffc9c8; 
+    color: #FA5652; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 30px;
+    font-weight: bold; 
+    text-align: center; 
+    margin: 10px; 
 }
 .displaydata{
     display: flex;
@@ -296,29 +296,29 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 700px; /* تحديد الحد الأقصى لعرض المجموعة */
-    margin: 0 auto; /* لتوسيط المجموعة في الصفحة */
+    max-width: 700px; 
+    margin: 0 auto; 
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للصندوق */
-    overflow: hidden; /* التأكد من أن الحواف المستديرة تنطبق على المحتوى أيضًا */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
   }
   
   .input-group .form-control {
-    border-radius: 30px 0 0 30px; /* حواف مستديرة في الجانب الأيسر */
-    padding: 15px; /* حشو داخل الحقل */
-    border: none; /* إزالة الحدود الافتراضية */
-    flex-grow: 1; /* السماح للحقل بالنمو لأخذ المساحة المتاحة */
-    min-width: 0; /* التأكد من أن الحقل لا يزيد عن الحد الأدنى */
+    border-radius: 30px 0 0 30px;
+    padding: 15px;
+    border: none; 
+    flex-grow: 1; 
+    min-width: 0; 
   }
   
   .input-group .btn {
-    border-radius: 0 30px 30px 0; /* حواف مستديرة في الجانب الأيمن */
-    height: 100%; /* جعل الزر يأخذ ارتفاع الحاوية بالكامل */
-    padding: 10px 30px; /* حشو داخلي للزر */
-    background-color: #ff5a5f; /* لون خلفية الزر */
-    color: white; /* لون النص في الزر */
-    border: none; /* إزالة الحدود الافتراضية */
-    cursor: pointer; /* تغيير شكل المؤشر عند التمرير على الزر */
+    border-radius: 0 30px 30px 0; 
+    height: 100%; 
+    padding: 10px 30px; 
+    background-color: #ff5a5f; 
+    color: white; 
+    border: none; 
+    cursor: pointer; /
   }
   .input-group .btn::hove {
     background-color: #0C6C44 ;
@@ -329,8 +329,8 @@ ul{
 
   .input-group .btn:focus,
   .input-group .form-control:focus {
-    outline: none; /* إزالة تأثير التركيز الافتراضي */
-    box-shadow: none; /* إزالة ظل التركيز الافتراضي */
+    outline: none; 
+    box-shadow: none; 
   }
 
 
