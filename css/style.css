@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('Red_Hat_Display/static/RedHatDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('Red_Hat_Display/static/RedHatDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('Red_Hat_Display/static/RedHatDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+html {
+    font-family: 'RedHatDisplay', sans-serif;
+    font-weight: 500; /* Default*/
+}
+
+body {
+    font-family: 'RedHatDisplay', sans-serif;
+    font-weight: 500; /* Medium */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'RedHatDisplay', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+strong {
+    font-family: 'RedHatDisplay', sans-serif;
+    font-weight: 900; /* Black */
+}
+/* fonts color */
+p { color: #4B4F51;}
+h1 ,h2 , h3 ,h4 ,h5 , h6 { color: #035755;}
+span{ color: #FA5752;}
+
+
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .nav-right {
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+header .navbar-nav{
+    margin-left: 221px;
+}
+.text-content{
+padding: 188px 149px 0px 0px;
+}
+button {
+    border: 1px solid , #FA5752;
+    color: #ffffff;
+    background-color: #FA5752;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+.btn{
+    border: 1px solid , #FA5752;
+    color: #FA5752;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 20px; 
+}
+ul{
+    color: green;
+}
+ 
+.navbar-nav .nav-link {
+    color: #078253;
+}
+  
+.navbar-nav .nav-link:hover {
+    color: #FA5752;
+
+}
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color: #FA5752;
+    bottom: -4px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 5px;
+}
+
+
+
+/* section 1 */
+/* flex to sec1 and sec2 */
+.flex {
+    display: flex;
+    margin-right: -163px;
+}
+
+.image-content img{
+    height: 600px;
+    margin-right: 55px;
+}
+
+/* What Is Covid-19 section 2 */
+.secound-info {
+    position: relative;
+}
+.secound-info .bg1{
+    position: absolute;
+    position: absolute;
+    height: 200px;
+    top: 370px;
+    right: -3%;
+}
+.secound-info .bg2{
+    position: absolute;
+    position: absolute;
+    height: 97px;
+    top: 530px;
+    right: 7%;
+}
+.text-content .btn{
+    border: 1px solid , #ffe3e2;
+    color: #FA5652 ;
+    background-color: rgb(255, 222, 222);
+}
+/* Cards section 3 */
+.Cards {
+    position: relative;
+    padding-top: 50px; /* تأكد من وجود مساحة كافية للصورة */
+}
+
+.Cards .bg {
+    position: absolute;
+    top: 281px;
+    left: 7%;
+    width: 18%;
+    z-index: -1;
+}
+
+.Cards-data {
+    text-align: center;
+    position: relative; /* لتمكين وضع الصورة داخل هذا القسم */
+}
+
+.card {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للبطاقات */
+}
+
+.card:hover {
+    border-bottom: 2px solid red;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* تعزيز ظل البطاقة عند التمرير */
+}
+
+.row {
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 22.333333%;
+    }
+}
+
+/* Additional Section   Section 3 */
+.third-info .third-data{
+    text-align: center;
+}
+
+.third-info img {
+    justify-content: center;
+}
+
+
+.steps {
+    position: relative;
+}
+.steps .bg1 {
+    position: absolute;
+    width: 92px;
+    top: 450px;
+    left: 0;
+}
+.steps .bg2 {
+    position: absolute;
+    top: 2006px;
+    right: 33px;
+}
+.steps .bg3 {
+    position: absolute;
+    width: 92px;
+    bottom: 250px;
+    right: 0;
+}
+.image-content {
+    display: flex;
+    justify-content: center; /* توسيط الصورة أفقياً */
+    align-items: center; /* توسيط الصورة عمودياً */
+    height: 100%; /* تأكد من أن العنصر يحتوي على ارتفاع كامل */
+}
+
+.circle {
+    width: 50px; /* تحديد العرض */
+    height: 50px; /* تحديد الارتفاع */
+    border-radius: 50%; /* يجعل العنصر دائري الشكل */
+    background-color: #ffc9c8; /* لون خلفية الدائرة */
+    color: #FA5652; /* لون النص */
+    display: flex; /* استخدام flexbox لتوسيع المحتوى */
+    align-items: center; /* توسيط المحتوى عمودياً */
+    justify-content: center; /* توسيط المحتوى أفقياً */
+    font-size: 30px; /* حجم الخط */
+    font-weight: bold; /* سمك الخط */
+    text-align: center; /* توسيط النص */
+    margin: 10px; /* الهامش حول الدائرة */
+}
+.displaydata{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.steps-data {
+    text-align: center;
+}
+.step-container{
+    display: flex;
+
+}
+.step-content {
+    flex: 1;
+  }
+  
+  .step-content h2 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  .step-content p {
+    max-width: 470px; /* Set a max width for the paragraph */
+    margin: 5px 0 0;
+    font-size: 16px;
+    line-height: 1.5; /* Adjust line height if needed */
+    word-break: break-word; /* Ensure long words break to avoid overflow */
+  }
+  
+  
+  .displaydata img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .final-form .container {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+    border-radius: 30px;
+    max-width: 500px;
+  }
+
+
+  .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-radius: 30px;
+    }
+
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px; /* تحديد الحد الأقصى لعرض المجموعة */
+    margin: 0 auto; /* لتوسيط المجموعة في الصفحة */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للصندوق */
+    overflow: hidden; /* التأكد من أن الحواف المستديرة تنطبق على المحتوى أيضًا */
+  }
+  
+  .input-group .form-control {
+    border-radius: 30px 0 0 30px; /* حواف مستديرة في الجانب الأيسر */
+    padding: 15px; /* حشو داخل الحقل */
+    border: none; /* إزالة الحدود الافتراضية */
+    flex-grow: 1; /* السماح للحقل بالنمو لأخذ المساحة المتاحة */
+    min-width: 0; /* التأكد من أن الحقل لا يزيد عن الحد الأدنى */
+  }
+  
+  .input-group .btn {
+    border-radius: 0 30px 30px 0; /* حواف مستديرة في الجانب الأيمن */
+    height: 100%; /* جعل الزر يأخذ ارتفاع الحاوية بالكامل */
+    padding: 10px 30px; /* حشو داخلي للزر */
+    background-color: #ff5a5f; /* لون خلفية الزر */
+    color: white; /* لون النص في الزر */
+    border: none; /* إزالة الحدود الافتراضية */
+    cursor: pointer; /* تغيير شكل المؤشر عند التمرير على الزر */
+  }
+  .input-group .btn::hove {
+    background-color: #0C6C44 ;
+    color: white; 
+  }
+
+
+
+  .input-group .btn:focus,
+  .input-group .form-control:focus {
+    outline: none; /* إزالة تأثير التركيز الافتراضي */
+    box-shadow: none; /* إزالة ظل التركيز الافتراضي */
+  }
+
+
+  /* edit in secoundary to green /// bootstrap */
+  .btn-outline-secondary {
+    --bs-btn-color: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none
+}
+
+footer{
+    background: linear-gradient(#FFFFFF , #ffe8e8) ;
+    padding: 25px 0 25px 0;
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+footer .navbar-nav .nav-item {
+    margin: 0 10px; 
+  }
+
+  footer .copyright {
+    font-size: 12px; 
+    color: #6c757d;
+    width: 100%; 
+    margin-top: 10px;
+    text-align: center; 
+  }
+  nav span {
+    color: #0C6C44 ;
+  }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .first-info, .second-info, .cards, .steps {
+        padding: 30px 0;
+    }
+
+    .first-info .text-content, .second-info .text-content, .cards .card-body, .steps .step-content {
+        text-align: center;
+    }
+
+    .first-info .image-content, .second-info .image-content, .steps .image-content {
+        margin-bottom: 20px;
+    }
+
+    .steps .step-content h2 {
+        font-size: 1.25rem;
+    }
+}
